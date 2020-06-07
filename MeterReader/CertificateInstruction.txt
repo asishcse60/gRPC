@@ -1,0 +1,7 @@
+step 1: enter certificate directory(cd path..)
+step 2: Set-ExecutionPolicy ByPass -Scope Process
+step 3: Select y
+step 4: cls
+step 5: ./makecerts.ps1
+step 6: copy ssl certificate server folder and copy selfcert in client folder
+step 7: open control panel in Manage user certificates->Personal and cut root certificate the paste root certificate folder as trusted
